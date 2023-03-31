@@ -74,9 +74,7 @@ int main(void)
 	  if(vs==0)
 	  {
 		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
-		  HAL_Delay(50);
-		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
-		  HAL_Delay(50);
+		
 	  }
 	  else
 	  {
@@ -160,8 +158,8 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 
 ## Output  :
-![output](./1.jpeg)
-![output](./2.jpeg)
+![output](./11.jpeg)
+![output](./22.jpeg)
  
  
  
